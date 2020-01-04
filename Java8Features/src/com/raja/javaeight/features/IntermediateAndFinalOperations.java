@@ -20,7 +20,7 @@ public class IntermediateAndFinalOperations {
 		.peek(System.out::println)
 		.filter(p1.or(p2))
 		.peek(list::add)
-		//.peek(System.out::println);//it returns stream and it is intermediate operation
+		//.peek(System.out::println);//it returns stream and it is intermediary operation
 		.forEach(t->System.out.println(t));// it does not return stream and it is final operation
 		
 		System.out.println("List size:"+list.size());
