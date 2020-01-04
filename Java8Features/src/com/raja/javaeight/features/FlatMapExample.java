@@ -24,6 +24,10 @@ public class FlatMapExample {
 		.flatMap(flatmapper)//it returns stream of streams and finally return flattened stream 
 		.forEach(System.out::println);
 
+		
+		//peek,foreach will take Consumer as parameter
+		//filter - will take predicate as parameter
+		//map() ,flatMap() - takes mappers as parameter - mapper is functional interface of Function<>
 
 		
 	}
