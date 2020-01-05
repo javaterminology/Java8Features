@@ -20,7 +20,7 @@ public class FlatMapExample {
 		//and finally returns flattened stream
 		list.stream()
 		//.map(size)
-		//.map(flatmapper) - if we use flatmapper for map function it returns 3 stream objects 
+		//.map(flatmapper) - if we use parameter 'flatmapper' for map function it returns 3 stream objects 
 		.flatMap(flatmapper)//it returns stream of streams and finally return flattened stream 
 		.forEach(System.out::println);
 
