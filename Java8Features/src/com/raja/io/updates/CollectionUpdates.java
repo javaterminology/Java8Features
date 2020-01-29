@@ -26,6 +26,7 @@ public class CollectionUpdates {
 
 		Collection<String> list = new ArrayList<String>(strings);
 
+		//returns true if collection modified - means if element is removed which is size >4 
 		boolean b = list.removeIf(s -> s.length()>4);
 		
 		System.out.println(list.stream().collect(Collectors.joining(", ")));

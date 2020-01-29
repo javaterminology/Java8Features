@@ -22,7 +22,8 @@ public class FileReaderExamples {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		//Java 7 - try with resources and use of Paths
+		//Reading files more easier using Files.lines() method without bufferedReader/file reader
+		//try with resources and use of Paths
 		Path path = Paths.get("d:", "Rajasekhar","Raja.txt");
 		//Stream implements AutoCloseable, and will close underlying file
 		try(Stream<String> stream = Files.lines(path)){
