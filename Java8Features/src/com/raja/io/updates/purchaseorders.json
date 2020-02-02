@@ -1,0 +1,534 @@
+{
+  "ShowPurchaseOrder": {
+    "value": {
+      "DataArea": {
+        "Show": {
+          "ResponseCriteria": [
+            {
+              "ResponseExpression": {
+                "value": "SUCCESS",
+                "actionCode": "SUCCESS"
+              }
+            }
+          ]
+        },
+        "PurchaseOrder": [
+          {
+            "PurchaseOrderHeader": {
+              "ID": {
+                "value": "B674636A80014716"
+              },
+              "DocumentReference": [
+                {
+                  "ID": {
+                    "value": "83516566"
+                  }
+                }
+              ],
+              "Status": [
+                {
+                  "Description": {
+                    "value": "Closed"
+                  }
+                }
+              ],
+              "SalesOrderReference": [
+                {
+                  "ID": {
+                    "value": "109542135"
+                  }
+                }
+              ],
+              "Party": [
+                {
+                  "typeCode": "EndCustomer",
+                  "Name": [
+                    {
+                      "value": "CITY ELECTRICAL FACTORS LTD"
+                    }
+                  ],
+                  "Location": [
+                    {
+                      "Address": [
+                        {
+                          "AddressLine": [
+                            {
+                              "value": "UNIT 3 BERMONDSEY TRADING ESTATE",
+                              "sequenceNumber": 1
+                            },
+                            {
+                              "value": "ROTHERHITHE NEW ROAD",
+                              "sequenceNumber": 2
+                            }
+                          ],
+                          "CityName": {
+                            "value": "LONDON"
+                          },
+                          "CountrySubDivisionCode": [
+                            {
+                              "value": "LONDON"
+                            }
+                          ],
+                          "CountryCode": {
+                            "value": "United Kingdom"
+                          },
+                          "PostalCode": {
+                            "value": "SE16 3LL"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "ShipToParty": {
+                "Name": [
+                  {
+                    "value": "CITY ELECTRICAL FACTORS LTD"
+                  }
+                ],
+                "Location": [
+                  {
+                    "Address": [
+                      {
+                        "AddressLine": [
+                          {
+                            "value": "UNIT 3 BERMONDSEY TRADING ESTATE",
+                            "sequenceNumber": 1
+                          },
+                          {
+                            "value": "ROTHERHITHE NEW ROAD",
+                            "sequenceNumber": 2
+                          }
+                        ],
+                        "CityName": {
+                          "value": "LONDON"
+                        },
+                        "CountrySubDivisionCode": [
+                          {
+                            "value": "LONDON"
+                          }
+                        ],
+                        "CountryCode": {
+                          "value": "United Kingdom"
+                        },
+                        "PostalCode": {
+                          "value": "SE16 3LL"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "TotalAmount": {
+                "value": 525.8,
+                "currencyCode": "USD"
+              },
+              "BillToParty": {
+                "Name": [
+                  {
+                    "value": "BRITISH TELECOMMUNICATIONS PLC \"RESALE\""
+                  }
+                ],
+                "Location": [
+                  {
+                    "Address": [
+                      {
+                        "AddressLine": [
+                          {
+                            "value": "BT PAYABLES",
+                            "sequenceNumber": 1
+                          },
+                          {
+                            "value": "PO BOX 372",
+                            "sequenceNumber": 2
+                          },
+                          {
+                            "value": "PARKWAY BUSINESS CENTRE",
+                            "sequenceNumber": 3
+                          }
+                        ],
+                        "CityName": {
+                          "value": "MANCHESTER"
+                        },
+                        "CountryCode": {
+                          "value": "United Kingdom"
+                        },
+                        "PostalCode": {
+                          "value": "M14 0WF"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "PurchaseOrderLine": [
+              {
+                "LineNumberID": {
+                  "value": "1"
+                },
+                "LineIDSet": [
+                  {
+                    "ID": [
+                      {
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Description": [
+                  {
+                    "value": "1.1",
+                    "typeCode": "SOLineNumber"
+                  }
+                ],
+                "Status": [
+                  {
+                    "Extension": [
+                      {
+                        "DateTime": [
+                          {
+                            "value": "2019-12-03T00:00:00Z"
+                          }
+                        ],
+                        "typeCode": "ShipmentDate"
+                      }
+                    ],
+                    "Code": {
+                      "value": "Closed"
+                    }
+                  }
+                ],
+                "Item": {
+                  "ID": {
+                    "value": "C1111-4P"
+                  },
+                  "Lot": [
+                    {
+                      "Quantity": {
+                        "value": 1
+                      }
+                    }
+                  ],
+                  "Description": [
+                    {
+                      "value": "ISR 1100 4 Ports Dual GE WAN Ethernet Router"
+                    }
+                  ]
+                },
+                "PromisedDeliveryDateTime": "2019-12-05T00:00:00Z",
+                "ShipFromParty": [
+                  {
+                    "Location": [
+                      {
+                        "Name": [
+                          {
+                            "value": "HERKENBOSCH,,NLD"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "SalesOrderReference": {
+                  "LineNumberID": {
+                    "value": "1.0"
+                  }
+                },
+                "ExtendedAmount": {
+                  "value": 525.8,
+                  "currencyCode": "USD"
+                },
+                "FulfillmentTerm": [
+                  {
+                    "RequestedDeliveryDate": "2019-11-15T00:00:00Z"
+                  }
+                ],
+                "TransportStep": [
+                  {
+                    "TransportationMethodCode": {
+                      "value": "UPS-SCS AIR 3_5_DAYS"
+                    },
+                    "TransportationTerm": [
+                      {
+                        "Description": [
+                          {
+                            "value": "129241294",
+                            "typeCode": "Tracking Number"
+                          },
+                          {
+                            "typeCode": "Tracking URL"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "LineNumberID": {
+                  "value": "1"
+                },
+                "LineIDSet": [
+                  {
+                    "ID": [
+                      {
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Description": [
+                  {
+                    "value": "1.1.10",
+                    "typeCode": "SOLineNumber"
+                  }
+                ],
+                "Status": [
+                  {}
+                ],
+                "Item": {
+                  "ID": {
+                    "value": "CAB-ACU"
+                  },
+                  "Lot": [
+                    {
+                      "Quantity": {
+                        "value": 1
+                      }
+                    }
+                  ],
+                  "Description": [
+                    {
+                      "value": "AC Power Cord (UK), C13, BS 1363, 2.5m"
+                    }
+                  ]
+                },
+                "": "2019-12-05T00:00:00Z",
+                "ShipFromParty": [
+                  {
+                    "Location": [
+                      {
+                        "Name": [
+                          {
+                            "value": "HERKENBOSCH,,NLD"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "SalesOrderReference": {
+                  "LineNumberID": {
+                    "value": "1.1"
+                  }
+                },
+                "ExtendedAmount": {
+                  "value": 0,
+                  "currencyCode": "USD"
+                }
+              },
+              {
+                "LineNumberID": {
+                  "value": "1"
+                },
+                "LineIDSet": [
+                  {
+                    "ID": [
+                      {
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Description": [
+                  {
+                    "value": "1.1.7",
+                    "typeCode": "SOLineNumber"
+                  }
+                ],
+                "Status": [
+                  {}
+                ],
+                "Item": {
+                  "ID": {
+                    "value": "SL-1100-4P-IPB"
+                  },
+                  "Description": [
+                    {
+                      "value": "IP Base License for Cisco ISR 1100 4P Series"
+                    }
+                  ],
+                  "Lot": [
+                    {
+                      "Quantity": {
+                        "value": 1
+                      }
+                    }
+                  ]
+                },
+                "ExtendedAmount": {
+                  "value": 0,
+                  "currencyCode": "USD"
+                },
+                "PromisedDeliveryDateTime": "2019-12-05T00:00:00Z",
+                "ShipFromParty": [
+                  {
+                    "Location": [
+                      {
+                        "Name": [
+                          {
+                            "value": "HERKENBOSCH,,NLD"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "SalesOrderReference": {
+                  "LineNumberID": {
+                    "value": "1.2"
+                  }
+                }
+              },
+              {
+                "LineNumberID": {
+                  "value": "1"
+                },
+                "LineIDSet": [
+                  {
+                    "ID": [
+                      {
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Description": [
+                  {
+                    "value": "1.1.5",
+                    "typeCode": "SOLineNumber"
+                  }
+                ],
+                "Status": [
+                  {}
+                ],
+                "Item": {
+                  "ID": {
+                    "value": "SISR1100UK9-166"
+                  },
+                  "Description": [
+                    {
+                      "value": "Cisco ISR 1100 Series IOS XE Universal"
+                    }
+                  ],
+                  "Lot": [
+                    {
+                      "Quantity": {
+                        "value": 1
+                      }
+                    }
+                  ]
+                },
+                "ExtendedAmount": {
+                  "value": 0,
+                  "currencyCode": "USD"
+                },
+                "PromisedDeliveryDateTime": "2019-12-05T00:00:00Z",
+                "ShipFromParty": [
+                  {
+                    "Location": [
+                      {
+                        "Name": [
+                          {
+                            "value": "HERKENBOSCH,,NLD"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "SalesOrderReference": {
+                  "LineNumberID": {
+                    "value": "1.3"
+                  }
+                }
+              },
+              {
+                "LineNumberID": {
+                  "value": "1"
+                },
+                "LineIDSet": [
+                  {
+                    "ID": [
+                      {
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Description": [
+                  {
+                    "value": "1.1.2",
+                    "typeCode": "SOLineNumber"
+                  }
+                ],
+                "Status": [
+                  {}
+                ],
+                "Item": {
+                  "ID": {
+                    "value": "PWR-66W-AC-V2"
+                  },
+                  "Description": [
+                    {
+                      "value": "Power Supply 66 Watt AC V2 for C890 and C1100 series"
+                    }
+                  ],
+                  "Lot": [
+                    {
+                      "Quantity": {
+                        "value": 1
+                      }
+                    }
+                  ]
+                },
+                "ExtendedAmount": {
+                  "value": 0,
+                  "currencyCode": "USD"
+                },
+                "PromisedDeliveryDateTime": "2019-12-05T00:00:00Z",
+                "ShipFromParty": [
+                  {
+                    "Location": [
+                      {
+                        "Name": [
+                          {
+                            "value": "HERKENBOSCH,,NLD"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "SalesOrderReference": {
+                  "LineNumberID": {
+                    "value": "1.4"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "ApplicationArea": {
+        "CreationDateTime": "2020-01-06T04:41:06Z",
+        "BODID": {
+          "schemeVersionID": "V1",
+          "schemeAgencyID": "CISCO"
+        }
+      }
+    }
+  }
+}
