@@ -69,6 +69,13 @@ public class PurchaseDetails {
 	private String status;
 	private String shipmentDate;
 	private String promishedDeliveryDate;
+	@Override
+	public String toString() {
+		return "PurchaseDetails [purchaseOrderId=" + purchaseOrderId + ", salesOrderReference=" + salesOrderReference
+				+ ", documentReference=" + documentReference + ", status=" + status + ", shipmentDate=" + shipmentDate
+				+ ", promishedDeliveryDate=" + promishedDeliveryDate + ", shipmentFrom=" + shipmentFrom + "]";
+	}
+
 	private String shipmentFrom;
 	
 	public PurchaseDetails(){	

@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -16,11 +17,22 @@ public class PurchaseDetailsTest {
 	public static List<PurchaseDetails> getPurchase() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		List<PurchaseDetails> purchaseDetailList = new ArrayList<PurchaseDetails>();
-		Reader reader = new FileReader("C:\\Users\\611990448\\Desktop\\OrderRefVo.json");
+		Reader reader = new FileReader("d://Rajasekhar//purchaseorders.txt");
 		Map<String, Map> map = mapper.readValue(reader, Map.class);
-		Map<String, Map> payload = map.get("payload");
-		// Map<String, Map> showPurchaseOrderMap = map.get("ShowPurchaseOrder");
-	     Map<String, Map> showPurchaseOrderMap = payload.get("ShowPurchaseOrder");
+		
+		/*start*/
+				    
+				
+		
+						   
+		
+		/*end*/
+		
+		
+		
+		
+		//Map<String, Map> payload = map.get("payload");
+	     Map<String, Map> showPurchaseOrderMap = map.get("ShowPurchaseOrder");
 		if (showPurchaseOrderMap.get("value") != null) {
 			Map<String, Map> valueMap = showPurchaseOrderMap.get("value");
 			List<Map<String, Map>> purchaseOrder = (List<Map<String, Map>>) valueMap.get("DataArea")
@@ -161,6 +173,8 @@ public class PurchaseDetailsTest {
 	}
 	public static void main(String[] args) throws IOException {
 		getPurchase();
+		
+		
 	}
 
 }
